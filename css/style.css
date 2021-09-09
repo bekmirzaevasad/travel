@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+div,
+ul,
+li,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* utils class start */
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+.btn {
+  padding: 15px 30px;
+  background: #155a6b;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* utils class end */
+
+/* header start */
+
+.header {
+  background: url(../img/home1.jpg) no-repeat center / cover;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.header a {
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 17px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  padding: 15px 35px;
+}
+
+.navbar a {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.showcase {
+  display: flex;
+}
+
+.showcase img {
+  width: 180px;
+}
+
+.showcase .card {
+  width: 370px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #155a6b;
+  padding: 20px 30px;
+}
+
+.showcase-card {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+  height: 70vh;
+}
+
+.showcase .card p {
+  padding-bottom: 15px;
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+.showcase .card a {
+  font-size: 14px;
+}
+
+.showcase-text h4 {
+  font-size: 16px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.showcase-text h1 {
+  font-size: 60px;
+  padding-bottom: 40px;
+  font-weight: 400;
+}
+
+.showcase-text h1 span {
+  font-weight: 600;
+}
+
+.showcase-text {
+  width: 100%;
+}
+.showcase-text ul {
+  display: flex;
+  padding-top: 70px;
+}
+
+.showcase-text li {
+  padding: 20px 40px 20px 0;
+}
+
+.showcase-text li a {
+  font-size: 18px;
+}
+
+/* header end */
+
+/* about start */
+
+#about {
+  background: #0b2b33;
+  color: #fff;
+}
+
+#about .container {
+  display: flex;
+  padding: 100px 0;
+  align-items: center;
+}
+
+.about-img {
+  display: flex;
+  align-items: center;
+}
+
+.about-img img {
+  width: 100%;
+  flex: 1;
+}
+
+.about-img .img1 img {
+  width: 230px;
+  margin-left: 30px;
+}
+
+.about-img .img2 img {
+  width: 290px;
+  margin-left: 16px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h1 {
+  font-weight: 500;
+  font-size: 26px;
+  padding-bottom: 25px;
+}
+
+.about-text p {
+  color: #ccc;
+  padding-bottom: 30px;
+}
+
+/* about end */
+
+/* discover start */
+#discover {
+  background: #0b2b33;
+  color: #fff;
+  text-align: center;
+}
+
+.discover-text h1 {
+  padding-bottom: 50px;
+}
+
+.discover-img {
+  display: flex;
+  align-items: center;
+  margin-left: 19vh;
+  padding-bottom: 60px;
+}
+
+.discover-img img {
+  width: 100%;
+  flex: 1;
+}
+
+.discover-img .img1 img {
+  width: 290px;
+  margin-left: 30px;
+}
+
+.discover-img .img2 img {
+  width: 310px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.discover-img .img3 img {
+  width: 290px;
+}
+/* discover end */
+
+/* place start */
+
+#place {
+  background: #0b2b33;
+  color: #fff;
+  text-align: center;
+}
+
+.place-img {
+  display: flex;
+  align-items: center;
+  margin-left: 19vh;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.place-img1 {
+  display: flex;
+}
+
+.place-img .img4 {
+  margin-right: 50px;
+}
+
+.place-img .img6 {
+  margin-left: 50px;
+}
+
+.place-img1 .img7 {
+  margin-left: 19vh;
+}
+
+.place-img1 .img8 {
+  margin-left: 50px;
+}
+
+.place-img1 {
+  padding-bottom: 30vh;
+}
+
+/* place end */
+
+/* contact start */
+#contact {
+  background: #0b2b33;
+  color: #fff;
+  text-align: center;
+}
+
+#contact .container {
+  background: #0f3d49;
+  padding: 60px 0;
+}
+
+#contact h1 {
+  font-weight: 500;
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+#contact p {
+  padding-bottom: 20px;
+}
+
+#contact input {
+  padding: 25px 20px;
+  background: #0b2b33;
+  border: none;
+  outline: none;
+  color: #ccc;
+  width: 100%;
+}
+
+#contact input::placeholder {
+  color: #ccc;
+}
+
+#contact .btn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+/* contact end */
+
+#footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer {
+  background: #0b2b33;
+  color: #fff;
+  padding: 30px;
+}
+
+.footer-text1 ul {
+  display: flex;
+  padding-top: 20px;
+  list-style: none;
+}
+
+.footer-text1 li {
+  padding: 20px 40px 20px 0;
+}
+
+.footer-text1 li a {
+  font-size: 18px;
+}
+.footer-text1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer1 p {
+  margin-left: 30vh;
+}
+.footer1 {
+  background: #0b2b33;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20vh;
+}
+.a2 {
+  margin-right: 30vh;
+}
+
+.form-control {
+  position: relative;
+  width: 400px;
+  margin: auto;
+}
+
+@media screen and (max-width: 900px) {
+  .navbar,
+  .navbar ul,
+  .showcase,
+  .about .container,
+  .about-img {
+    flex-direction: column;
+    text-align: center;
+  }
+  .showcase h1 {
+    font-size: 32px;
+  }
+  .showcase h4 {
+    font-size: 14px;
+  }
+  .btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+  .showcase ul {
+    justify-content: center;
+  }
+  .showcase li {
+    padding: 15px 10px;
+  }
+  .showcase-card {
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    width: 228px !important;
+    padding: 24px 16px !important;
+    text-align: left;
+  }
+  .card img {
+    width: 100px !important;
+    max-width: 100%;
+  }
+  .card p,
+  .card a {
+    font-size: 13 !important;
+  }
+  .about-text {
+    padding-bottom: 40px;
+  }
+  .about-text h1 {
+    font-size: 20px;
+  }
+  .about-img img {
+    width: 100% !important;
+  }
+  .about-img .img1 img,
+  .about-img .img2 img {
+    margin: 0;
+  }
+  .contact h1 {
+    font-size: 20px !important;
+  }
+  .contact p {
+    font-size: 15px !important;
+  }
+  .contact input {
+    width: 193px;
+    margin-bottom: 16px;
+  }
+}
